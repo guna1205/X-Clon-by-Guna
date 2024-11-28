@@ -1,0 +1,110 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #242d34;
+}
+#xlogo{
+    margin-top: 5px;
+}
+/* #logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+ .main{
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+    border: none;
+    width: 600px;
+    height: 650px;
+    margin-top: 40px;
+    padding-top: 1px;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ }
+ h1{
+    margin-right: 22%;
+    margin-top: 5%;
+    color: white;
+    font-size: 30px;
+ }
+ input{
+   border: 2px solid rgb(49, 48, 48);
+   border-radius: 5px;
+    background-color: black;
+    width: 420px;
+    height: 55px;
+    margin-top: 8%;
+    font-size: 16px;
+    padding-left: 7px;
+    color: white;
+ }
+ h4{
+    margin-right: 53.5%;
+    margin-top: 7%;
+    color: white;
+ }
+ small{
+    color: grey;
+    padding-right: 5%;
+    margin-top: 2%;
+ }
+ .dob{
+    display: flex;
+    margin-right: 0%;
+    margin-top: 4%;
+ }
+ .month{
+    width: 200px;
+    height: 55px;
+    background-color: black;
+    color: grey;
+    padding-left: 3px;
+    padding-bottom: 15px;
+ }
+ .day
+ {
+    background-color: black;
+    color: grey;
+    width: 80px;
+    margin-left: 15px;
+    padding-left: 3px;
+    padding-bottom: 15px;
+ }
+ .year{
+    background-color: black;
+    color: grey;
+    width: 100px;
+    margin-left: 15px;
+    padding-left: 3px;
+    padding-bottom: 15px;
+ }
+ button{
+   background-color: white;
+   color: black;
+   width: 420px;
+   height: 50px;
+   border-radius: 40px;
+   font-weight: bold;
+   font-size: 15px;
+   margin-top: 17%;
+ }
+ input:hover{
+   border-color: rgb(20, 152, 246);
+   color: white;
+ }
+ /* .month:hover{
+   border-color: rgb(20, 152, 246) ;
+ } */
+ 
+
+ 
